@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Rescue</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="gameBackground">
+            <div id="start" onclick="start()">
+                <h1>Rescue</h1>
+                <p>
+                    Use the W key to move the helicopter up, the S key to move the helicopter down and the D key to shoot.
+                </p>
+                <p>Click here to start!!</p>
+            </div>
+        </div>
+    </div>
+    <audio src="sons/som.mp3" preload="auto" id="shotSound"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="explosionSound"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="music"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="gameOverSound"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="lostSound"></audio>
+    <audio src="sons/resgate.mp3" preload="auto" id="rescueSound"></audio>
+   
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</body>
+
+</html>
